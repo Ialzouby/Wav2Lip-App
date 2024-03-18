@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0B778342B768326002ECA3D /* Wav2LipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B778332B768326002ECA3D /* Wav2LipApp.swift */; };
+		E0B778362B768326002ECA3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B778352B768326002ECA3D /* ContentView.swift */; };
+		E0B778382B768328002ECA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B778372B768328002ECA3D /* Assets.xcassets */; };
+		E0B7783C2B768328002ECA3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B7783B2B768328002ECA3D /* Preview Assets.xcassets */; };
+		E0B778462B768328002ECA3D /* Wav2LipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B778452B768328002ECA3D /* Wav2LipTests.swift */; };
+		E0B778502B768328002ECA3D /* Wav2LipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B7784F2B768328002ECA3D /* Wav2LipUITests.swift */; };
+		E0B778522B768328002ECA3D /* Wav2LipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B778512B768328002ECA3D /* Wav2LipUITestsLaunchTests.swift */; };
+		E0B778612B76858D002ECA3D /* videopicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B778602B76858D002ECA3D /* videopicker.swift */; };
+		E0B778632B7688C8002ECA3D /* audioextractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B778622B7688C8002ECA3D /* audioextractor.swift */; };
+		E0B778652B76892A002ECA3D /* videopreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B778642B76892A002ECA3D /* videopreprocessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0B778422B768328002ECA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0B778282B768326002ECA3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0B7782F2B768326002ECA3D;
+			remoteInfo = Wav2Lip;
+		};
+		E0B7784C2B768328002ECA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0B778282B768326002ECA3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0B7782F2B768326002ECA3D;
+			remoteInfo = Wav2Lip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0B778302B768326002ECA3D /* Wav2Lip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wav2Lip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B778332B768326002ECA3D /* Wav2LipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wav2LipApp.swift; sourceTree = "<group>"; };
+		E0B778352B768326002ECA3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0B778372B768328002ECA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0B778392B768328002ECA3D /* Wav2Lip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wav2Lip.entitlements; sourceTree = "<group>"; };
+		E0B7783B2B768328002ECA3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0B778412B768328002ECA3D /* Wav2LipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wav2LipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B778452B768328002ECA3D /* Wav2LipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wav2LipTests.swift; sourceTree = "<group>"; };
+		E0B7784B2B768328002ECA3D /* Wav2LipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wav2LipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B7784F2B768328002ECA3D /* Wav2LipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wav2LipUITests.swift; sourceTree = "<group>"; };
+		E0B778512B768328002ECA3D /* Wav2LipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wav2LipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0B778602B76858D002ECA3D /* videopicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videopicker.swift; sourceTree = "<group>"; };
+		E0B778622B7688C8002ECA3D /* audioextractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioextractor.swift; sourceTree = "<group>"; };
+		E0B778642B76892A002ECA3D /* videopreprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videopreprocessor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0B7782D2B768326002ECA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B7783E2B768328002ECA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B778482B768328002ECA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0B778272B768326002ECA3D = {
+			isa = PBXGroup;
+			children = (
+				E0B778322B768326002ECA3D /* Wav2Lip */,
+				E0B778442B768328002ECA3D /* Wav2LipTests */,
+				E0B7784E2B768328002ECA3D /* Wav2LipUITests */,
+				E0B778312B768326002ECA3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0B778312B768326002ECA3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0B778302B768326002ECA3D /* Wav2Lip.app */,
+				E0B778412B768328002ECA3D /* Wav2LipTests.xctest */,
+				E0B7784B2B768328002ECA3D /* Wav2LipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0B778322B768326002ECA3D /* Wav2Lip */ = {
+			isa = PBXGroup;
+			children = (
+				E0B778332B768326002ECA3D /* Wav2LipApp.swift */,
+				E0B778352B768326002ECA3D /* ContentView.swift */,
+				E0B778372B768328002ECA3D /* Assets.xcassets */,
+				E0B778392B768328002ECA3D /* Wav2Lip.entitlements */,
+				E0B7783A2B768328002ECA3D /* Preview Content */,
+				E0B778602B76858D002ECA3D /* videopicker.swift */,
+				E0B778622B7688C8002ECA3D /* audioextractor.swift */,
+				E0B778642B76892A002ECA3D /* videopreprocessor.swift */,
+			);
+			path = Wav2Lip;
+			sourceTree = "<group>";
+		};
+		E0B7783A2B768328002ECA3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0B7783B2B768328002ECA3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0B778442B768328002ECA3D /* Wav2LipTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0B778452B768328002ECA3D /* Wav2LipTests.swift */,
+			);
+			path = Wav2LipTests;
+			sourceTree = "<group>";
+		};
+		E0B7784E2B768328002ECA3D /* Wav2LipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0B7784F2B768328002ECA3D /* Wav2LipUITests.swift */,
+				E0B778512B768328002ECA3D /* Wav2LipUITestsLaunchTests.swift */,
+			);
+			path = Wav2LipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0B7782F2B768326002ECA3D /* Wav2Lip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B778552B768328002ECA3D /* Build configuration list for PBXNativeTarget "Wav2Lip" */;
+			buildPhases = (
+				E0B7782C2B768326002ECA3D /* Sources */,
+				E0B7782D2B768326002ECA3D /* Frameworks */,
+				E0B7782E2B768326002ECA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wav2Lip;
+			productName = Wav2Lip;
+			productReference = E0B778302B768326002ECA3D /* Wav2Lip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0B778402B768328002ECA3D /* Wav2LipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B778582B768328002ECA3D /* Build configuration list for PBXNativeTarget "Wav2LipTests" */;
+			buildPhases = (
+				E0B7783D2B768328002ECA3D /* Sources */,
+				E0B7783E2B768328002ECA3D /* Frameworks */,
+				E0B7783F2B768328002ECA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0B778432B768328002ECA3D /* PBXTargetDependency */,
+			);
+			name = Wav2LipTests;
+			productName = Wav2LipTests;
+			productReference = E0B778412B768328002ECA3D /* Wav2LipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0B7784A2B768328002ECA3D /* Wav2LipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B7785B2B768328002ECA3D /* Build configuration list for PBXNativeTarget "Wav2LipUITests" */;
+			buildPhases = (
+				E0B778472B768328002ECA3D /* Sources */,
+				E0B778482B768328002ECA3D /* Frameworks */,
+				E0B778492B768328002ECA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0B7784D2B768328002ECA3D /* PBXTargetDependency */,
+			);
+			name = Wav2LipUITests;
+			productName = Wav2LipUITests;
+			productReference = E0B7784B2B768328002ECA3D /* Wav2LipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0B778282B768326002ECA3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E0B7782F2B768326002ECA3D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E0B778402B768328002ECA3D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E0B7782F2B768326002ECA3D;
+					};
+					E0B7784A2B768328002ECA3D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E0B7782F2B768326002ECA3D;
+					};
+				};
+			};
+			buildConfigurationList = E0B7782B2B768326002ECA3D /* Build configuration list for PBXProject "Wav2Lip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0B778272B768326002ECA3D;
+			productRefGroup = E0B778312B768326002ECA3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0B7782F2B768326002ECA3D /* Wav2Lip */,
+				E0B778402B768328002ECA3D /* Wav2LipTests */,
+				E0B7784A2B768328002ECA3D /* Wav2LipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0B7782E2B768326002ECA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B7783C2B768328002ECA3D /* Preview Assets.xcassets in Resources */,
+				E0B778382B768328002ECA3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B7783F2B768328002ECA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B778492B768328002ECA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0B7782C2B768326002ECA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B778362B768326002ECA3D /* ContentView.swift in Sources */,
+				E0B778612B76858D002ECA3D /* videopicker.swift in Sources */,
+				E0B778652B76892A002ECA3D /* videopreprocessor.swift in Sources */,
+				E0B778342B768326002ECA3D /* Wav2LipApp.swift in Sources */,
+				E0B778632B7688C8002ECA3D /* audioextractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B7783D2B768328002ECA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B778462B768328002ECA3D /* Wav2LipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B778472B768328002ECA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B778522B768328002ECA3D /* Wav2LipUITestsLaunchTests.swift in Sources */,
+				E0B778502B768328002ECA3D /* Wav2LipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0B778432B768328002ECA3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0B7782F2B768326002ECA3D /* Wav2Lip */;
+			targetProxy = E0B778422B768328002ECA3D /* PBXContainerItemProxy */;
+		};
+		E0B7784D2B768328002ECA3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0B7782F2B768326002ECA3D /* Wav2Lip */;
+			targetProxy = E0B7784C2B768328002ECA3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0B778532B768328002ECA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0B778542B768328002ECA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E0B778562B768328002ECA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wav2Lip/Wav2Lip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wav2Lip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wav2lip.Wav2Lip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0B778572B768328002ECA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wav2Lip/Wav2Lip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wav2Lip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wav2lip.Wav2Lip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0B778592B768328002ECA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wav2lip.Wav2LipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wav2Lip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wav2Lip";
+			};
+			name = Debug;
+		};
+		E0B7785A2B768328002ECA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wav2lip.Wav2LipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wav2Lip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wav2Lip";
+			};
+			name = Release;
+		};
+		E0B7785C2B768328002ECA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wav2lip.Wav2LipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wav2Lip;
+			};
+			name = Debug;
+		};
+		E0B7785D2B768328002ECA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wav2lip.Wav2LipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wav2Lip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0B7782B2B768326002ECA3D /* Build configuration list for PBXProject "Wav2Lip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B778532B768328002ECA3D /* Debug */,
+				E0B778542B768328002ECA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B778552B768328002ECA3D /* Build configuration list for PBXNativeTarget "Wav2Lip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B778562B768328002ECA3D /* Debug */,
+				E0B778572B768328002ECA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B778582B768328002ECA3D /* Build configuration list for PBXNativeTarget "Wav2LipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B778592B768328002ECA3D /* Debug */,
+				E0B7785A2B768328002ECA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B7785B2B768328002ECA3D /* Build configuration list for PBXNativeTarget "Wav2LipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B7785C2B768328002ECA3D /* Debug */,
+				E0B7785D2B768328002ECA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0B778282B768326002ECA3D /* Project object */;
+}

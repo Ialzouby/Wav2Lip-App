@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CB1488B0-943B-44C5-AAD6-8FE6CAC5DCF9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AFE2EDD-9F54-44F9-B994-8E60258DBA85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wav2Lip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3AFE2EDD-9F54-44F9-B994-8E60258DBA85 - ba535d736b1b3c8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "3AFE2EDD-9F54-44F9-B994-8E60258DBA85 - a65b45177de78887"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "2792">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28EE41B7-45B9-4ABF-8E06-977A4BCEAB5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wav2Lip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "28EE41B7-45B9-4ABF-8E06-977A4BCEAB5F - a65b45177de78845"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "3584">
+               </Location>
+               <Location
+                  uuid = "28EE41B7-45B9-4ABF-8E06-977A4BCEAB5F - ba535d736b1b3c4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C10A960C-1DB3-420D-94E3-B7D9D6499762"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wav2Lip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "statusMessage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C10A960C-1DB3-420D-94E3-B7D9D6499762 - 7811dad6a9e09b15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "C10A960C-1DB3-420D-94E3-B7D9D6499762 - 7811dad6a9e09b15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BADB2B52-4034-4FED-9D1D-875584ACC83D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wav2Lip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "statusMessage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9208DF42-EF5D-4695-825A-2EA86B452DA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wav2Lip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9208DF42-EF5D-4695-825A-2EA86B452DA0 - b434862aa7b5e0fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "9208DF42-EF5D-4695-825A-2EA86B452DA0 - 6fb8c406b7e68203"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1336">
+               </Location>
+               <Location
+                  uuid = "9208DF42-EF5D-4695-825A-2EA86B452DA0 - 6fb8c406b7e68203"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "4436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D74FB64-5D24-41C6-A16E-435F5F850AA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wav2Lip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4D74FB64-5D24-41C6-A16E-435F5F850AA0 - b434862aa7b5e0dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "4D74FB64-5D24-41C6-A16E-435F5F850AA0 - 6fb8c406b7e68222"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "4792">
+               </Location>
+               <Location
+                  uuid = "4D74FB64-5D24-41C6-A16E-435F5F850AA0 - b434862aa7b5e0dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 () -&gt; Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CCAF67E-AB52-4058-835A-533A89ACB7FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wav2Lip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2CCAF67E-AB52-4058-835A-533A89ACB7FE - 1ece31a63a3bfbba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 () -&gt; Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "2CCAF67E-AB52-4058-835A-533A89ACB7FE - 6fb8c406b7e6834d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "3336">
+               </Location>
+               <Location
+                  uuid = "2CCAF67E-AB52-4058-835A-533A89ACB7FE - 1ece31a63a3bfbba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 () -&gt; Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7770139A-6A40-4C96-A1E5-07C9C6549959"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wav2Lip/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "7770139A-6A40-4C96-A1E5-07C9C6549959 - 39adcabf6c8ed94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "7770139A-6A40-4C96-A1E5-07C9C6549959 - a65b45177de78f9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+               <Location
+                  uuid = "7770139A-6A40-4C96-A1E5-07C9C6549959 - 39adcabf6c8ed94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Group&lt;Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.cornerRadius(_: CoreGraphics.CGFloat, antialiased: Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of Wav2Lip.ContentView.statusMessage(Swift.Optional&lt;Wav2Lip.ContentView.ProcessingStatus&gt;) -&gt; some&gt;&gt;.0&gt;)&gt;, &lt;&lt;opaque return type of Wav2Lip.ContentView.styledButton(text: Swift.String, action: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt;)&gt; in Wav2Lip.ContentView.body.getter : some"
+                  moduleName = "Wav2Lip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ialzouby/Desktop/Wav2Lip/Wav2Lip/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
