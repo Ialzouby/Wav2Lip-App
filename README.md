@@ -4,23 +4,23 @@
   <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="Wav2Lip Logo">
 </p>
 
-<p>Welcome to the <strong>Wav2Lip iOS Integration</strong> project! This initiative aims to integrate the Wav2Lip model into iOS applications, enabling real-time lip-syncing capabilities on Apple devices.</p>
+<p>Welcome to the <strong>Wav2Lip iOS Integration</strong> project! This initiative aims to bring the powerful lip-syncing capabilities of Wav2Lip to iOS applications, enabling developers to create engaging and synchronized audio-visual experiences.</p>
 
 <h2>✨ Features</h2>
 
 <ul>
-  <li><strong>Real-Time Lip-Syncing</strong>: Seamlessly synchronize lip movements with audio input in real-time.</li>
-  <li><strong>High Accuracy</strong>: Leverage the Wav2Lip model to achieve precise lip synchronization.</li>
-  <li><strong>iOS Compatibility</strong>: Optimize the model for efficient performance on iOS devices.</li>
+  <li><strong>Real-Time Lip Syncing</strong>: Integrate Wav2Lip's advanced lip-syncing technology into your iOS app for real-time synchronization of speech and lip movements.</li>
+  <li><strong>High-Quality Output</strong>: Achieve high-fidelity lip-syncing results suitable for various applications, including virtual avatars, video dubbing, and more.</li>
+  <li><strong>Optimized Performance</strong>: Leverage Core ML and Metal Performance Shaders to ensure efficient processing on iOS devices.</li>
 </ul>
 
 <h2>🛠️ Tech Stack</h2>
 
 <ul>
   <li><strong>Languages</strong>: Swift, Objective-C</li>
-  <li><strong>Frameworks</strong>: CoreML, AVFoundation</li>
+  <li><strong>Frameworks</strong>: Core ML, AVFoundation</li>
   <li><strong>Machine Learning Model</strong>: Wav2Lip</li>
-  <li><strong>Version Control</strong>: Git</li>
+  <li><strong>Tools</strong>: Xcode, Metal Performance Shaders</li>
 </ul>
 
 <h2>🚀 Installation</h2>
@@ -51,13 +51,21 @@
   <li><strong>Install Dependencies</strong>:</li>
 </ol>
 
-<p>Ensure that all necessary dependencies are installed. You may need to use CocoaPods or Swift Package Manager as required.</p>
+<p>Ensure that all necessary dependencies are installed. You may need to install CocoaPods if it's not already installed:</p>
+
+<pre><code>sudo gem install cocoapods
+</code></pre>
+
+<p>Then, install the project dependencies:</p>
+
+<pre><code>pod install
+</code></pre>
 
 <ol start="5">
-  <li><strong>Build and Run the Application</strong>:</li>
+  <li><strong>Build and Run the Project</strong>:</li>
 </ol>
 
-<p>Select your target device or simulator and click the "Run" button in Xcode to build and run the application.</p>
+<p>Select your target device or simulator in Xcode and click the "Run" button to build and run the project.</p>
 
 <h2>🤝 Contributing</h2>
 
