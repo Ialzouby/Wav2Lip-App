@@ -17,9 +17,9 @@
 <h2>🛠️ Tech Stack</h2>
 
 <ul>
-  <li><strong>Languages</strong>: Swift, Objective-C</li>
+  <li><strong>Languages</strong>: Swift, Objective-C, Python</li>
   <li><strong>Frameworks</strong>: CoreML, AVFoundation</li>
-  <li><strong>Machine Learning Model</strong>: Wav2Lip</li>
+  <li><strong>Machine Learning Models</strong>: Wav2Lip, ONNX</li>
   <li><strong>Version Control</strong>: Git</li>
   <li><strong>Development Environment</strong>: Xcode</li>
   <li><strong>Dependency Management</strong>: CocoaPods, Swift Package Manager</li>
@@ -63,18 +63,14 @@
 
 <p>Select your target device or simulator and click the "Run" button in Xcode to build and run the application.</p>
 
-<h2>🤝 Contributing</h2>
-
-<p>Contributions are welcome! Please fork the repository and submit a pull request with your proposed changes.</p>
-
-<h2>📄 License</h2>
-
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
-
 <h2>🔗 Acknowledgements</h2>
 
 <p>This project utilizes the <strong>Wav2Lip</strong> model, originally developed by Rudrabha Mukhopadhyay and collaborators. The model was converted to CoreML format using ONNX for integration into iOS applications. For more details, please refer to the original Wav2Lip repository:</p>
 
-<p><a href="https://github.com/Rudrabha/Wav2Lip">https://github.com/Rudrabha/Wav2Lip</a></p>
+<p align="center">
+  <a href="https://github.com/Rudrabha/Wav2Lip">
+    <img src="https://repository-images.githubusercontent.com/282702056/0b8e4b80-0c4c-11eb-8b8f-2b6d4b5e3a2a" alt="Wav2Lip Repository">
+  </a>
+</p>
 
 <p>Happy coding! 😊</p>
