@@ -69,7 +69,7 @@
 
 <p align="center">
   <a href="https://github.com/Rudrabha/Wav2Lip">
-    <img src="https://repository-images.githubusercontent.com/282702056/0b8e4b80-0c4c-11eb-8b8f-2b6d4b5e3a2a" alt="Wav2Lip Repository">
+    <img src="https://raw.githubusercontent.com/Rudrabha/Wav2Lip/master/assets/wav2lip.gif" alt="Wav2Lip Demo">
   </a>
 </p>
 
