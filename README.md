@@ -71,4 +71,10 @@
 
 <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
+<h2>🔗 Acknowledgements</h2>
+
+<p>This project utilizes the <strong>Wav2Lip</strong> model, originally developed by Rudrabha Mukhopadhyay and collaborators. The model was converted to CoreML format using ONNX for integration into iOS applications. For more details, please refer to the original Wav2Lip repository:</p>
+
+<p><a href="https://github.com/Rudrabha/Wav2Lip">https://github.com/Rudrabha/Wav2Lip</a></p>
+
 <p>Happy coding! 😊</p>
